@@ -1,7 +1,7 @@
 # Star Wars Universe
 ## Project Links
 - [Github Repo link](https://github.com/lta4/Unit-Project-2.git)
-- [add your deployment link]()
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/5593acdc-3c0f-4e34-8585-4041baee0f97/deploy-status)](https://app.netlify.com/sites/starwarsuniverse/deploys)
 ## Project Description
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 ## API
