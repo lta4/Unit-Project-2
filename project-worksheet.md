@@ -5,7 +5,7 @@
 ## Project Description
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 ## API
-For this project I plan to make a (random) detailed list of Star Wars characters. It will include both the good and the bad in random orders. A card will show the characters details. A  navigation bar with forwarding links to certain areas in the site. 
+For this project I plan to make a (random) detailed list of Star Wars characters. It will include both the good (light) and the bad (dark) in random orders. A card will show the characters details. A  navigation bar with forwarding links to certain areas in the site. 
 
 
 ```
@@ -74,8 +74,9 @@ For this project I plan to make a (random) detailed list of Star Wars characters
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [Mobile Design](https://res.cloudinary.com/dfltkqotn/image/upload/v1610735580/Mobile_najsss.heic)
+- [Tablet & Desktop Design](https://res.cloudinary.com/dfltkqotn/image/upload/v1610735606/Tablet_Desktop_hib9lp.heic)
+- [React Architecture](https://res.cloudinary.com/dfltkqotn/image/upload/v1610735712/Wireframe_ymplmn.heic)
 ### MVP/PostMVP - 5min
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 #### MVP
@@ -108,19 +109,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-| Component | Description | 
-| --- | :---: |  
-| App | This will make the initial data pull and include React Router | 
-| Nav | This will render the header include the Nav | 
-| Home | This will render the Nav |
-| About/Why? | This will render the Nav
-| Footer | This will render the Nav | 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Component | Description | Priority | Estimated Time | Actual Time |
+| --- | :---: | :---: | :---: | :---: | :---: |
+| App {State} | Initial data/pull/ include React Router | H | 2.5hr | hr |
+| Nav | This will render the header include the Nav | H | 2.5hr | hr |
+| Home | This will render the Nav | H | 2.5hr | hr |
+| About/Why? {Stateless} | This will render the Nav | H | 2hr | hr |
+| Footer {Stateless} | This will render the Home | L | 2hr | hr |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 ## Code Snippet
