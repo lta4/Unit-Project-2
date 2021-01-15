@@ -1,11 +1,11 @@
-# Project Overview
+# Star Wars Universe
 ## Project Links
 - [Github Repo link](https://github.com/lta4/Unit-Project-2.git)
 - [add your deployment link]()
 ## Project Description
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 ## API
-For this project I plan to make a detailed list of Star Wars characters. It will include both the good and the bad in random order. A card will show the charcters details with a navigation bar with forwarding links to certain areas in the site. 
+For this project I plan to make a (random) detailed list of Star Wars characters. It will include both the good and the bad in random orders. A card will show the characters details. A  navigation bar with forwarding links to certain areas in the site. 
 
 
 ```
@@ -78,20 +78,43 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - [add link to your react architecture]()
 ### MVP/PostMVP - 5min
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-#### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
-#### PostMVP EXAMPLE
+#### MVP
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
+| Nav | H | 2.5hr | hr |
+| Nav Links | H | 2.5hr | hr |
+| HTML | H | 2.5 | hr |
+| CSS | L | 2.5 | hr |
+| Grid Layout | H | 3hr | hr |
+| Flex Box | H | 3hr | hr |  
+| Adding Format | H | 2hrs|  hr | 
+| Mobile Responsive | H | 3hr | hr |
+| Tablet Responsive | H | 3hr | hr |
+| Desktop Responsive | H | 3hr | hr |
+| API | H | 2.5hr | hr |
+| Total | H | 29.5hrs| hrs |
+#### PostMVP
+
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
+| Nav Aesthetics | H | 2.5hr | hr |
+| CSS Styling | H | 3hr | hr |
+| Email Icon | L | 2hr | hr |
+| Social Media Icons | L | 3hr | hr |
+| Smooth Scroll | H | 2hr | hr |
+| Project Review | H | 3hr | hr |
+| Total | H | 15.5hrs| hrs |
 - Add localStorage or firebase for storage
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| App | This will make the initial data pull and include React Router | 
+| Nav | This will render the header include the Nav | 
+| Home | This will render the Nav |
+| About/Why? | This will render the Nav
+| Footer | This will render the Nav | 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
