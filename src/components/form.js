@@ -16,25 +16,36 @@ const Form = (props) => {
     }
 
     return (
+        <>
         <div>
-            <form onClick={handleClick}>
-                <button
-                className="mainBtn1"
-                onChange={handleChange}
-                value={FormData.searchTerm}
-                placeholder="">
-                    Click
-                </button>
-                <button
-                className="mainBtn2"
-                onChange={handleChange}
-                value={FormData.searchTerm}>
-                    Click
-                </button>
+            <form className="form1">
+                onClick={handleClick}
+                {/* <div className="divBtn1"> */}
+                    <button
+                    className="mainBtn1"
+                    onChange={handleChange}
+                    value={FormData.searchTerm}
+                    placeholder="">
+                        Click
+                    </button>
+                    </form>
+                    </div>
+                   
+                
+        <div>
+                <form>
+                    <button
+                    className="mainBtn2"
+                    onChange={handleChange}
+                    value={FormData.searchTerm}>
+                        Click
+                    </button>
+                {/* </div> */}
                 {/* <input type="text" placeholder="Search" />
                 <button className="mainBtn3"></button> */}
             </form>
         </div>
+        </>
     )
 }
 

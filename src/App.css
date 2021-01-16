@@ -9,8 +9,8 @@ html, body, #root {
 .App {
   display: grid;
   height: 100%;
-  grid-template-columns: repeat(3);
-  grid-template-rows: repeat(5);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 
