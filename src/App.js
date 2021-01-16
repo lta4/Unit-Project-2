@@ -19,7 +19,7 @@ function App() {
           <Why />
         </Route>
         <Route 
-          path= "/main/:url"
+          path= "/form/:url"
           render={(routerProps) => <List {...routerProps} />}
         >
           <List />

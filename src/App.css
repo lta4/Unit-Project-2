@@ -8,7 +8,7 @@ html, body, #root {
 
 .App {
   display: grid;
-  height: 100%;
+  height: 200%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }

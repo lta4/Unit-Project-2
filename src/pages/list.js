@@ -420,7 +420,7 @@ const List = (props) => {
         {list.map((blaster) => {
             const {name, url} = blaster;
             return (
-                <Link to={`/main/${url}`}>
+                <Link to={`/form/${url}`}>
                     <h2>{name}</h2>
                 </Link>
             )
