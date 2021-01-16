@@ -33,6 +33,7 @@ code {
 .nav a {
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
 
 /* BUTTON STYLING */
@@ -48,25 +49,16 @@ code {
   height: 3em;
 }
 
-/* GRID LAYOUT */
+/* .mainBtn3 {
+  background-color: red;
+  width: 4em;
+  height: 2em;
+} */
 
-html {
-  height: 100%;
-  width: 100%;
-}
-
-.App {
-  display: grid;
-  /* width: 100%;
-  height: 100%; */
-  grid-template-columns: repeat(3);
-  grid-template-rows: repeat(5);
-}
+/* FOOTER STYLING */
 
 .footer {
-  display: flex;
-  /* justify-content: space-between; */
-  /* align-content: flex-end; */
+  height: 100%;
   background-color: rgb(204, 35, 35);
   color: white;
   padding: 15px;
