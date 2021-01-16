@@ -5,7 +5,7 @@ import Form from "../components/form"
 const Main = (props) => {
         
     const apiUrl = "https://www.swapi.tech/api/people?page=1&limit=82"
-    const [info, setInfo] = React.useState(null);
+    const [info, setInfo] = React.useState("null");
     const getData = async (searchTerm) => {
         
         const response = await fetch(apiUrl)

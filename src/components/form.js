@@ -3,7 +3,7 @@ import React from "react"
 const Form = (props) => {
     
     const [formData, setFormData] = React.useState({
-        searchTerm: "Result",
+        searchTerm: "",
     });
 
     const handleChange = (event) => {

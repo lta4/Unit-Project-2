@@ -18,7 +18,10 @@ function App() {
         <Route path= "why">
           <Why />
         </Route>
-        <Route path= "list">
+        <Route 
+          path= "/main/:url"
+          render={(routerProps) => <List {...routerProps} />}
+        >
           <List />
         </Route>
       </Switch>
