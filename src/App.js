@@ -7,6 +7,7 @@ import Footer from "./pages/footer";
 import Nav from "./components/nav";
 import List from "./pages/list";
 import Form from "./components/form";
+import Param from "./pages/param"
 
 function App() {
   return (

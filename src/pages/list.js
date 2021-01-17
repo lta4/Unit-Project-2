@@ -416,16 +416,18 @@ const List = (props) => {
             }
         ]
 
-    return <div className="info">
+    return (
+        <div className="info">
         {list.map((blaster) => {
             const {name, url} = blaster;
             return (
-                <Link to={`/main/${url}`}>
+                <Link to={`/"/"/${url}`}>
                     <h2>{name}</h2>
                 </Link>
             )
         })}
     </div>
+    )
 }
 
 export default List
