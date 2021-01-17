@@ -14,9 +14,9 @@ const Main = (props) => {
     }
     getData()
 
-    // React.useEffect(() => {
-    //     getData()
-    // }, [])
+    React.useEffect(() => {
+        getData()
+    }, []);
 
     return (
         <div className= "main">

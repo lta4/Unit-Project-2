@@ -6,6 +6,7 @@ import Why from "./pages/why";
 import Footer from "./pages/footer";
 import Nav from "./components/nav";
 import List from "./pages/list";
+import Form from "./components/form";
 
 function App() {
   return (
@@ -19,13 +20,16 @@ function App() {
           <Why />
         </Route>
         <Route 
-          path= "/form/:url"
+          path= "/main/:url"
           render={(routerProps) => <List {...routerProps} />}
         >
           <List />
         </Route>
+        <Route path= "form">
+          <Form />
+        </Route>
       </Switch>
-      <Footer />
+      <Footer className="footContainer"/>
     </div>
   );
 }

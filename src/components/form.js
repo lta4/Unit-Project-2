@@ -15,11 +15,19 @@ const Form = (props) => {
         props.infoSearch(formData.searchTerm)
     }
 
+    // const randomUrl = new Array ("https://www.swapi.tech/api/people?page=1&limit=82")
+    // for (let i=0; i < 5; i++) {
+    //     const number = Math.floor(Math.random() * randomUrl.length);
+    //     document.getElementById("result").innerHTML += '<img src=" ' + randomUrl[number] + ' " style="width:150px" />'
+    // }
+
     return (
         <>
             <div>
                 <form className="form1"
-                        onClick={handleClick}>
+                        onClick={handleClick}
+                        onClick="getRandomUrl()">
+                        <a href="/">
                         <button
                         className="mainBtn1"
                         onChange={handleChange}
@@ -27,6 +35,7 @@ const Form = (props) => {
                         placeholder="">
                             Click
                         </button>
+                        </a>
                         <button
                         className="mainBtn2"
                         onChange={handleChange}
