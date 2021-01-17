@@ -10,7 +10,9 @@ import Form from "./components/form";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{
+      backgroundImage: 'url("https://i.pinimg.com/originals/f0/d8/ce/f0d8ce1ce46766a24d2317890e364890.png")'
+    }}>
       <Nav />
         <Switch>
         <Route exact path= "/">
@@ -20,8 +22,8 @@ function App() {
           <Why />
         </Route>
         <Route 
-          path= "/main/:url"
-          render={(routerProps) => <List {...routerProps} />}
+          path="/main/:url"
+          render={(routerProps) => <Main {...routerProps} />}
         >
           <List />
         </Route>

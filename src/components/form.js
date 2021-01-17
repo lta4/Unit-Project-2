@@ -22,12 +22,11 @@ const Form = (props) => {
     // }
 
     return (
-        <>
+        
             <div>
                 <form className="form1"
                         onClick={handleClick}
                         onClick="getRandomUrl()">
-                        <a href="/">
                         <button
                         className="mainBtn1"
                         onChange={handleChange}
@@ -35,7 +34,6 @@ const Form = (props) => {
                         placeholder="">
                             Click
                         </button>
-                        </a>
                         <button
                         className="mainBtn2"
                         onChange={handleChange}
@@ -46,7 +44,7 @@ const Form = (props) => {
                     <button className="mainBtn3"></button> */}
                 </form>
             </div>
-        </>
+        
     )
 }
 

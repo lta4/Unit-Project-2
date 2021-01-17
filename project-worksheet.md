@@ -105,19 +105,20 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Smooth Scroll | H | 2hr | hr |
 | Project Review | H | 3hr | hr |
 | Total | H | 15.5hrs| hrs |
-- Add localStorage or firebase for storage
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 | Component | Description | Priority | Estimated Time | Actual Time |
-| --- | :---: | :---: | :---: | :---: | :---: |
+| --- | :---: | :---: | :---: | :---: |
 | App {State} | Initial data/pull/ include React Router | H | 2.5hr | hr |
 | Nav | This will render the header include the Nav | H | 2.5hr | hr |
 | Home | This will render the Nav | H | 2.5hr | hr |
 | About/Why? {Stateless} | This will render the Nav | H | 2hr | hr |
 | Footer {Stateless} | This will render the Home | L | 2hr | hr |
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ -Swapi.tech
+ -Stack Overflow
+ -MDN Web Docs
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 ```
