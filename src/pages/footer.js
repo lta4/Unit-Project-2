@@ -4,7 +4,7 @@ const Footer = (props) => {
     return (
     <div 
     className="footer">
-        Footer am I
+        <a href="#top">Footer am I</a>
     </div>
     )
 }

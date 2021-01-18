@@ -418,10 +418,10 @@ const List = (props) => {
 
     return (
         <div className="info">
-        {list.map((blaster) => {
-            const {name, url} = blaster;
+        {list.map((info) => {
+            const {name, url} = info;
             return (
-                <Link to={`/"/"/${url}`}>
+                <Link to={`/main/${url}`}>
                     <h2>{name}</h2>
                 </Link>
             )

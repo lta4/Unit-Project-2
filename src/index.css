@@ -56,6 +56,10 @@ code {
   height: 200%;
 } */
 
+.maintitle {
+  color: white;
+}
+
 /* BUTTON STYLING */
 .mainBtn1 {
   background-color: red;
@@ -64,9 +68,9 @@ code {
 }
 
 .mainBtn2 {
-  display: grid;
+  /* display: grid;
   grid-column: 2 / 3;
-  grid-row: 3 / -1;
+  grid-row: 3 / -1; */
   background-color: red;
   width: 6em;
   height: 3em;

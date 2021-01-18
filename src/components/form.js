@@ -22,22 +22,21 @@ const Form = (props) => {
     // }
 
     return (
-        
             <div>
                 <form className="form1"
-                        onClick={handleClick}
-                        onClick="getRandomUrl()">
+                        onClick={handleClick}>
+                        {/* onClick="getRandomUrl()"> */}
                         <button
                         className="mainBtn1"
                         onChange={handleChange}
-                        value={FormData.searchTerm}
+                        value={formData.searchTerm}
                         placeholder="">
                             Click
                         </button>
                         <button
                         className="mainBtn2"
                         onChange={handleChange}
-                        value={FormData.searchTerm}>
+                        value={formData.searchTerm}>
                             Click
                         </button>
                     {/* <input type="text" placeholder="Search" />

@@ -7,7 +7,7 @@ import Footer from "./pages/footer";
 import Nav from "./components/nav";
 import List from "./pages/list";
 import Form from "./components/form";
-import Param from "./pages/param"
+// import Param from "./pages/param"
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
           <Why />
         </Route>
         <Route 
-          path="/main/:url"
-          render={(routerProps) => <Main {...routerProps} />}
+          path="/list/:url"
+          render={(routerProps) => <List {...routerProps} />}
         >
           <List />
         </Route>
