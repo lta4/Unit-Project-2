@@ -27,10 +27,8 @@ code {
   grid-row: 1 / -5;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  background-color: black;
-  color: white;
-  padding: 15px;
+  align-items: center;
+  
   font-size: 2em;
 }
 
@@ -45,7 +43,8 @@ code {
   flex-direction: column-reverse;
   align-items: flex-end; */
   color: gold;
-  font-size: 40px;
+  font-size: 45px;
+  margin: 0;
   
 }
 
@@ -122,5 +121,14 @@ code {
   }
 }
 
-@media only screen and (min-width: )
+@media only screen and (min-width: 768px) {
+  .nav .title {
+    font-size: 75px;
+  }
 
+  .nav a {
+    font-size: 25px;
+    padding: 0 15px 0 15px;
+  }
+
+}  
