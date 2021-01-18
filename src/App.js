@@ -13,6 +13,8 @@ function App() {
   return (
     <div className="App" style={{
       backgroundImage: 'url("https://i.pinimg.com/originals/f0/d8/ce/f0d8ce1ce46766a24d2317890e364890.png")'
+      // https://wallpaperaccess.com/full/245210.jpg
+      // https://i.pinimg.com/originals/f0/d8/ce/f0d8ce1ce46766a24d2317890e364890.png
     }}>
       <Nav />
         <Switch>
@@ -28,7 +30,7 @@ function App() {
         >
           {/* <List /> */}
         </Route>
-        <Route path= "form">
+         <Route path= "form">
           <Form />
         </Route>
       </Switch>
