@@ -17,12 +17,30 @@ const Main = (props) => {
 
     React.useEffect(() => {
         const randPeople = [
-            "Luke Skywalker",
-            "C-3PO",
-            "Darth Vader",
-            "R2-D2"
+            "https://www.swapi.tech/api/people/1",
+            "https://www.swapi.tech/api/people/2",
+            "https://www.swapi.tech/api/people/4",
+            "https://www.swapi.tech/api/people/5",
         ]
 
+        // const people =
+        // document.querySelector("people");
+        // const button = 
+        // document.querySelector("button")
+
+        // window.onload = () =>
+        // generateRandomPeople(randPeopleArray);
+        // button.addEventListener("click", () =>
+        // generateRandomPeople(randPeopleArray));
+
+        // function
+        // generateRandomPeople(array){
+        //     let randomNum =
+        // Math.floor(Math.random() *
+        // array.length);
+        //     people.setAttribute("url",
+        //     array[randomNum]);
+        // }
         const randomIndex = Math.floor(Math.random() * randPeople.length)
         getData(randPeople[randomIndex])
     }, []);
@@ -33,5 +51,6 @@ const Main = (props) => {
         </div>
     )
 }
+   
 
 export default Main
