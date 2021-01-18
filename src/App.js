@@ -23,10 +23,10 @@ function App() {
           <Why />
         </Route>
         <Route 
-          path="/list/:url"
+          path="/List/:url"
           render={(routerProps) => <List {...routerProps} />}
         >
-          <List />
+          {/* <List /> */}
         </Route>
         <Route path= "form">
           <Form />

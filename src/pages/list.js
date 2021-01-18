@@ -421,7 +421,7 @@ const List = (props) => {
         {list.map((info) => {
             const {name, url} = info;
             return (
-                <Link to={`/main/${url}`}>
+                <Link to={`/form/${url}`}>
                     <h2>{name}</h2>
                 </Link>
             )

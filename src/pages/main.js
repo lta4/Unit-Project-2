@@ -4,11 +4,11 @@ import Form from "../components/form"
 const Main = (props) => {
     
     // const url = props.match.params.url;
-    const apiKey = "https://www.swapi.tech/api/people?page=1&limit=82"
-    const [info, setInfo] = React.useState("null");
+    const url = "https://www.swapi.tech/api/people?url=${url}page=1&limit=82"
+    // const [info, setInfo] = React.useState("null");
     const getData = async (searchTerm) => {
         
-        const response = await fetch(apiKey)
+        const response = await fetch(url)
         const data = await response.json()
         console.log(data)
     }
@@ -23,24 +23,6 @@ const Main = (props) => {
             "https://www.swapi.tech/api/people/5",
         ]
 
-        // const people =
-        // document.querySelector("people");
-        // const button = 
-        // document.querySelector("button")
-
-        // window.onload = () =>
-        // generateRandomPeople(randPeopleArray);
-        // button.addEventListener("click", () =>
-        // generateRandomPeople(randPeopleArray));
-
-        // function
-        // generateRandomPeople(array){
-        //     let randomNum =
-        // Math.floor(Math.random() *
-        // array.length);
-        //     people.setAttribute("url",
-        //     array[randomNum]);
-        // }
         const randomIndex = Math.floor(Math.random() * randPeople.length)
         getData(randPeople[randomIndex])
     }, []);
