@@ -6,11 +6,10 @@ const Main = () => {
     const [star, setStar] = useState("null");
    
 const handleClick = async () => {
-    const star = "https://www.swapi.tech/api/people/1";
+    const star = "https://www.swapi.tech/api/people?page=1&limit=82";
         
     const response = await fetch(star);
     const json = await response.json();
-    // setData(data) /* CREATES LOOPS */
     setStar(json.data);
     
     console.log(response)
@@ -25,7 +24,7 @@ const handleClick = async () => {
     //     ]
 
     //     const randomIndex = Math.floor(Math.random() * randPeople.length)
-    //     getData(randPeople[randomIndex])
+    //     getStar(randPeople[randomIndex])
     // }, []);
 
     return (

@@ -1,9 +1,6 @@
 /node_modules
 env.yaml
 .env
-development:
-    PORT: 4000
-    SECRET: "production"
-production:
-    PORT: 3000
-    SECRET: "development"
+
+development.yaml
+production.yaml

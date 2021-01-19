@@ -74,28 +74,6 @@ code {
   height: 3em;
 }
 
-
-/* .form1 {
-  display: grid;
-} */
-
-/* .form {
-  display: flex;
-  justify-content: flex-end;
-} */
-
-/* .divBtn2 {
-  display: grid;
-  grid-column:
-} */
-
-/* for search bar? */
-/* .mainBtn3 {
-  background-color: red;
-  width: 4em;
-  height: 2em;
-} */
-
 /* FOOTER STYLING */
 
 .footer a {
@@ -108,7 +86,6 @@ code {
   grid-row: 4 / -1;
   color: gold;
   font-size: 2em;
-  padding: 
 }
 
 .footer {

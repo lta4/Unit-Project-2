@@ -21,6 +21,7 @@ const Form = (props) => {
                 Click
         </button>
         <button
+            type="button"
             className="mainBtn2"
             onClick={handleClick}>
                 Click

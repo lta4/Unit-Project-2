@@ -6,7 +6,7 @@ import Why from "./pages/why";
 import Footer from "./pages/footer";
 import Nav from "./components/nav";
 // import Form from "./components/form";
-// import List from "./pages/list";
+import List from "./pages/list";
 
 function App() {
   return (
@@ -22,6 +22,9 @@ function App() {
         </Route>
         <Route path= "why">
           <Why />
+        </Route>
+        <Route path= "list">
+          <List />
         </Route>
       </Switch>
       <Footer className="footContainer"/>
