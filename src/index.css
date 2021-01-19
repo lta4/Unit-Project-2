@@ -58,6 +58,10 @@ code {
   height: 200%;
 } */
 
+.main h1 {
+  color: white;
+}
+
 /* BUTTON STYLING */
 .mainBtn1 {
   background-color: red;
@@ -72,6 +76,14 @@ code {
   background-color: red;
   width: 6em;
   height: 3em;
+}
+
+/* LIST */
+
+.list a {
+  font-size: 15px;
+  text-decoration: none;
+  color: gold;
 }
 
 /* FOOTER STYLING */

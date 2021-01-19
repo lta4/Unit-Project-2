@@ -20,8 +20,8 @@ html, body, #root {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "header header"
-    "main . sidebar"
-    "main main"
+    "main sidebar"
+    "main sidebar"
     "footer footer"
 }
 

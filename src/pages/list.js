@@ -417,7 +417,7 @@ const List = (props) => {
         ]
 
     return (
-        <div className="info">
+        <div className="list">
         {list.map((star) => {
             const {name, url} = star;
             return (

@@ -28,7 +28,7 @@ const handleClick = async () => {
     // }, []);
 
     return (
-        <div className= "Main">
+        <div className= "main">
             <h1>The Main Yoda</h1>
             <Form handleClickFromMain={handleClick} />
             <List star={star} />

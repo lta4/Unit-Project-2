@@ -7,6 +7,7 @@ import Footer from "./pages/footer";
 import Nav from "./components/nav";
 // import Form from "./components/form";
 import List from "./pages/list";
+import Container from "./pages/container"
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path= "list">
           <List />
+        </Route>
+        <Route path= "container">
+          <Container />
         </Route>
       </Switch>
       <Footer className="footContainer"/>
