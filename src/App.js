@@ -5,9 +5,8 @@ import Main from "./pages/main";
 import Why from "./pages/why";
 import Footer from "./pages/footer";
 import Nav from "./components/nav";
-import List from "./pages/list";
-import Form from "./components/form";
-// import Param from "./pages/param"
+// import Form from "./components/form";
+// import List from "./pages/list";
 
 function App() {
   return (
@@ -23,15 +22,6 @@ function App() {
         </Route>
         <Route path= "why">
           <Why />
-        </Route>
-        <Route 
-          path="/List/:url"
-          render={(routerProps) => <List {...routerProps} />}
-        >
-          {/* <List /> */}
-        </Route>
-         <Route path= "form">
-          <Form />
         </Route>
       </Switch>
       <Footer className="footContainer"/>

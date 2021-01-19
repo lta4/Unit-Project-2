@@ -1,19 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 import Form from "../components/form"
+import List from "./list"
 
-const Main = (props) => {
+const Main = () => {
+    const [star, setStar] = useState("null");
+   
+const handleClick = async () => {
+    const star = "https://www.swapi.tech/api/people/1";
+        
+    const response = await fetch(star);
+    const json = await response.json();
+    // setData(data) /* CREATES LOOPS */
+    setStar(json.data);
     
-    // const url = props.match.params.url;
-    const apiUrl = "https://www.swapi.tech/api/people?url=${url}page=1&limit=82"
-    
-    const [data, setData] = React.useState("null");
-    const getData = async (searchTerm) => {
-        const response = await fetch(apiUrl)
-        const data = await response.json()
-        // setData(data) /* CREATES LOOPS */
-        console.log(data)
+    console.log(response)
     }
-    getData()
     
     // React.useEffect(() => {
     //     const randPeople = [
@@ -28,11 +29,13 @@ const Main = (props) => {
     // }, []);
 
     return (
-        <div className= "main">
-            <Form infoSearch={getData} />
+        <div className= "Main">
+            <h1>The Main Yoda</h1>
+            <Form handleClickFromMain={handleClick} />
+            <List star={star} />
         </div>
-    )
-}
+    );
+};
    
 export default Main
 

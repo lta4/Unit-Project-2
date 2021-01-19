@@ -2,18 +2,8 @@ import React from "react"
 
 const Form = (props) => {
     
-    const [formData, setFormData] = React.useState({
-        searchTerm: "",
-    });
-
-    const handleChange = (event) => {
-        setFormData({...formData, [event.target.name]: event.target.value});
-        console.log("formData", formData)
-    };
-
-    const handleClick = (event) => {
-        event.preventDefault();
-        props.infoSearch(formData.searchTerm)
+    const handleClick = () => {
+        props.handleClickFromMain()
     }
 
     // const randomUrl = new Array ("https://www.swapi.tech/api/people?page=1&limit=82")
@@ -23,29 +13,20 @@ const Form = (props) => {
     // }
 
     return (
-            <div>
-                <form className="form1"
-                        onClick={handleClick}>
-                        {/* onClick="getRandomUrl()"> */}
-                        <button
-                        className="mainBtn1"
-                        onChange={handleChange}
-                        value={formData.searchTerm}
-                        placeholder="">
-                            Click
-                        </button>
-                        <button
-                        className="mainBtn2"
-                        onChange={handleChange}
-                        value={formData.searchTerm}>
-                            Click
-                        </button>
-                    {/* <input type="text" placeholder="Search" />
-                    <button className="mainBtn3"></button> */}
-                </form>
-            </div>
-        
-    )
-}
+        <>
+        <button
+            type="button"
+            className="mainBtn1"
+            onClick={handleClick}>
+                Click
+        </button>
+        <button
+            className="mainBtn2"
+            onClick={handleClick}>
+                Click
+        </button>
+        </>
+    );
+};
 
 export default Form
