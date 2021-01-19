@@ -8,6 +8,7 @@ const Form = (props) => {
 
     const handleChange = (event) => {
         setFormData({...formData, [event.target.name]: event.target.value});
+        console.log("formData", formData)
     };
 
     const handleClick = (event) => {
