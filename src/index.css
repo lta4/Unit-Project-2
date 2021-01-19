@@ -86,6 +86,14 @@ code {
   color: gold;
 }
 
+/* CONTAINER */
+
+.container {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: -4 / -3;
+}
+
 /* FOOTER STYLING */
 
 .footer a {

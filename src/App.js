@@ -7,7 +7,7 @@ import Footer from "./pages/footer";
 import Nav from "./components/nav";
 // import Form from "./components/form";
 import List from "./pages/list";
-import Container from "./pages/container"
+import Container from "./pages/container";
 
 function App() {
   return (
@@ -21,9 +21,6 @@ function App() {
         <Route exact path= "/">
           <Main />
         </Route>
-        <Route path= "why">
-          <Why />
-        </Route>
         <Route path= "list">
           <List />
         </Route>
@@ -31,6 +28,7 @@ function App() {
           <Container />
         </Route>
       </Switch>
+      <Why />
       <Footer className="footContainer"/>
     </div>
   );
