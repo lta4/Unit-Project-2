@@ -438,41 +438,38 @@ import React from "react"
 
 const List = (props) => {
 
-//     const selected = props.result.properties.name
+    // const selected = [props.result.properties.name]
 
-//     const [list, setList] = useState(null)
+    // const [list, setList] = useState(null)
 
-//     React.useEffect(() => {
-//         fetch(name[selected])
-//             .then((response) => response.json())
-//             .then((star) => {
-//                 setList(star)
-//                 console.log(star);
-//             });
-//     }, [selected]);
+    // React.useEffect(() => {
+    //     fetch([selected])
+    //         .then((response) => response.json())
+    //         .then((star) => {
+    //             setList(star)
+    //             // console.log(star);
+    //         });
+    // }, [selected]);
 
     return (
             <div className="list">
-                {list.map(star) => {
-                    <h1>alkjdflkj</h1>
-                }, []}
-                {/* <h2>{props.name}</h2>     */}
+                <h2>{props.star}</h2>    
             </div>
         );
     };
+    console.log()
 
 // return (
-//     <div className="list">
-//     {list.map((star) => {
-//         const {name, url} = star;
-//         return (
-//             <Link to={`/list/${url}`}>
-//                 <h2>{name}</h2>
-//             </Link>
+//         <div className="list">
+//             {list.map((star) => {
+//                 const {name, url} = star;
+//                 return (
+//                 <Link to={`/list/${url}`}>
+//                     <h2>{name}</h2>
+//                 </Link>
+//                 )
+//             })}
+//         </div>
 //         )
-//     })}
-// </div>
-// )
-// }        
-
+//     }
 export default List
