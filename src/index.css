@@ -65,8 +65,10 @@ code {
 /* BUTTON STYLING */
 .mainBtn1 {
   background-color: red;
-  width: 6em;
-  height: 3em;
+  width: 3em;
+  height: 2em;
+  text-align: center;
+  color: white;
 }
 
 .mainBtn2 {
@@ -74,8 +76,8 @@ code {
   grid-column: 2 / 3;
   grid-row: 3;
   background-color: red;
-  width: 6em;
-  height: 3em;
+  width: 3em;
+  height: 2em;
 }
 
 /* LIST */
@@ -93,6 +95,16 @@ code {
   grid-column: 2 / 3;
   grid-row: -4 / -3;
 }
+
+/* WHY */
+.copyRight {
+  color: white;
+}
+
+.thanks {
+  color: white;
+}
+
 
 /* FOOTER STYLING */
 

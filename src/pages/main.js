@@ -5,16 +5,23 @@ import List from "./list"
 const Main = () => {
     const [star, setStar] = useState("null");
    
-const handleClick = async () => {
-    const star = "https://www.swapi.tech/api/people?page=1&limit=82";
+const getStar = async () => {
+    const star = "https://www.swapi.tech/api/starships/9";
         
     const response = await fetch(star);
+    // const response = await fetch(star,{headers:{'Origin': "https://www.swapi.tech/api/starships/9"}});
     const json = await response.json();
     setStar(json.data);
     
-    console.log(response)
+    console.log(json)
     }
     
+    React.useEffect(() => {
+        getStar()
+    }, [])
+
+    // console.log("this is star", setStar)
+
     // React.useEffect(() => {
     //     const randPeople = [
     //         "https://www.swapi.tech/api/people/1",
@@ -30,7 +37,7 @@ const handleClick = async () => {
     return (
         <div className= "main">
             <h1>The Main Yoda</h1>
-            <Form handleClickFromMain={handleClick} />
+            <Form handleClickFromMain={getStar} />
             <List star={star} />
         </div>
     );

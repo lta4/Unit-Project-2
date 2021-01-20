@@ -16,22 +16,24 @@ function App() {
       // https://wallpaperaccess.com/full/245210.jpg
       // https://i.pinimg.com/originals/f0/d8/ce/f0d8ce1ce46766a24d2317890e364890.png
     }}>
-      <Nav />
-        <Switch>
+      <Nav className="navRoute"/>
+      <Switch>
         <Route exact path= "/">
-          <Main />
+          <Main className="mainRoute"/>
         </Route>
         <Route path= "list">
-          <List />
+          <List className="listRoute"/>
         </Route>
         <Route path= "container">
-          <Container />
+          <Container className="containerRoute"/>
+        </Route>
+        <Route path="/why">
+          <Why className="whyRouter"/>
         </Route>
       </Switch>
-      <Why />
       <Footer className="footContainer"/>
     </div>
   );
-}
+};
 
 export default App;
