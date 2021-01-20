@@ -72,9 +72,6 @@ code {
 }
 
 .mainBtn2 {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row: 3;
   background-color: red;
   width: 3em;
   height: 2em;
@@ -97,26 +94,44 @@ code {
 }
 
 /* WHY */
+
+.why {
+  display: grid;
+  grid-column: 1 / span 2;
+  grid-row: 2 / 3;
+}
+
 .copyRight {
-  color: white;
+  font-size: 20px;
+  color: gold;
+}
+
+.copyRight a {
+  text-decoration: none;
+  color: gold;
 }
 
 .thanks {
-  color: white;
+  font-size: 20px;
+  color: gold;
 }
 
+.thanks a {
+  text-decoration: none;
+  color: gold;
+}
 
 /* FOOTER STYLING */
 
 .footer a {
   text-decoration: none;
+  color: gold;
 }
 
 .footer {
   display: grid;
   grid-column: 1 / 3;
   grid-row: 4 / -1;
-  color: gold;
   font-size: 2em;
 }
 

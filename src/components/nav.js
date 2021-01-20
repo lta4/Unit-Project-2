@@ -7,7 +7,9 @@ const Nav = (props) => {
             <Link to="/">
                 <div className="star">Star Wars Info</div>
             </Link>
-                <h2 className="title">Star Wars Universe</h2>
+            <Link to="/">
+                <h1 className="title">Star Wars Universe</h1>
+            </Link>    
             <Link to="/why">
                 <div className="about">Why am I?</div>
             </Link>

@@ -36,7 +36,7 @@ const getStar = async () => {
 
     return (
         <div className= "main">
-            <h1>The Main Yoda</h1>
+            <h1>Yoda's Realm</h1>
             <Form handleClickFromMain={getStar} />
             <List star={star} />
         </div>

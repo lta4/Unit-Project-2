@@ -1,7 +1,13 @@
 import React from "react"
+import Form from "react"
 
 const Container = (props) => {
-    return <h2>I am container</h2>
+    return (
+        <div>
+        <Form />
+        <h2>I am container</h2>
+        </div>
+    )
 };
 
 export default Container
