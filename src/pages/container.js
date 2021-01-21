@@ -5,7 +5,6 @@ const Container = (props) => {
 
     if(props.name) {
         const {name, height, eye_color, mass, birth_year, skin_color} = props.name;
- 
     return(
         <>
         <div className="container">
@@ -21,7 +20,14 @@ const Container = (props) => {
         </div>
         </>
     );
-    }
+    }    
+else {
+    return (
+        <div>{props.name}</div>
+    )
+}
 };
+
+console.log(Container)
 
 export default Container

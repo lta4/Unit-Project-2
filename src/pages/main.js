@@ -17,7 +17,7 @@ const getStar = async () => {
     }
     
     React.useEffect(() => {
-        // getStar()
+        getStar()
     }, [])
 
     const loaded = () => {
