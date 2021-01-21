@@ -10,7 +10,6 @@ const getStar = async () => {
     const api = "https://www.swapi.tech/api/people?page=1&limit=82";
         
     const response = await fetch(api);
-    // const response = await fetch(star,{headers:{'Origin': "https://www.swapi.tech/api/starships/9"}});
     const json = await response.json();
     setStar(json.results);
     

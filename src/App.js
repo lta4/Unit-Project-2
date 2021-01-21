@@ -21,8 +21,11 @@ function App() {
           <Main className="mainRoute"/>
         </Route>
         <Route path="/why">
-          <Why className="whyRouter"/>
+          <Why className="whyRoute"/>
         </Route>
+        {/* <Route path="/container">
+        <Container className="containerRoute"/>
+        </Route> */}
       </Switch>
       <Container className="containerRoute"/>
       <Footer className="footContainer"/>

@@ -72,16 +72,16 @@ code {
   color: white;
 }
 
-.mainBtn2 {
+/* .mainBtn2 {
   background-color: red;
   width: 3em;
   height: 2em;
-}
+} */
 
 /* LIST */
 
-.list a {
-  font-size: 15px;
+.list {
+  font-size: 10px;
   text-decoration: none;
   color: gold;
 }
@@ -95,6 +95,7 @@ code {
 }
 
 .container {
+  font-size: 15px;
   color: white;
 }
 
