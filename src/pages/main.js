@@ -5,10 +5,10 @@ import { Link } from "react-router-dom"
 
 const Main = () => {
     const [star, setStar] = useState(null);
-   
+// FETCH FOR API //   
 const getStar = async () => {
     const api = "https://www.swapi.tech/api/people?page=1&limit=82";
-        
+    // FETCH WAITS FOR API, BECOMES JSON //    
     const response = await fetch(api);
     const json = await response.json();
     setStar(json.results);
@@ -17,7 +17,7 @@ const getStar = async () => {
     }
     
     React.useEffect(() => {
-        getStar()
+        // getStar()
     }, [])
 
     const loaded = () => {
@@ -26,7 +26,7 @@ const getStar = async () => {
             {star.map((star) => {
                 const {name, url} = star;
                 return (
-                    <Link to={`/main/${url}`}>
+                    <Link className="apiLink" to={`/main/${url}`}>
                         <h2>{name}</h2>
                     </Link> 
                 )
@@ -36,7 +36,7 @@ const getStar = async () => {
     };              
     return (                      
         <div className= "main">
-            <h1>Yoda's Realm</h1>
+            <h1 className="yodaList">Yoda's Knowledge</h1>
             <Form handleClickFromMain={getStar} />
             {star ? loaded() : null}
         </div>

@@ -80,6 +80,11 @@ code {
 
 /* LIST */
 
+.apiLink {
+  color: gold;
+  text-decoration: none;
+}
+
 .list {
   font-size: 10px;
   text-decoration: none;
@@ -108,7 +113,7 @@ code {
 }
 
 .copyRight {
-  font-size: 20px;
+  font-size: 15px;
   color: gold;
 }
 
@@ -118,7 +123,7 @@ code {
 }
 
 .thanks {
-  font-size: 20px;
+  font-size: 15px;
   color: gold;
 }
 
@@ -164,6 +169,23 @@ code {
     font-size: 25px;
     padding: 0 15px 0 15px;
   }
+
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .apiLink {
+    font-size: 12px;
+  }
+
+  .thanks {
+    font-size: 25px;
+  }
+
+  .copyRight {
+    font-size: 25px;
+  }
+
   .footer {
     font-size: 40px;
   }
@@ -176,6 +198,14 @@ code {
 
     .nav a {
       font-size: 35px;
+    }
+
+    .main h1 {
+      font-size: 45px;
+    }
+
+    .apiLink {
+      font-size: 18px;
     }
 
     .footer {

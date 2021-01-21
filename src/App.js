@@ -23,7 +23,7 @@ function App() {
         <Route path="/why">
           <Why className="whyRoute"/>
         </Route>
-        <Route path="/why">
+        <Route path="/main">
         <Container className="containerRoute"/>
         </Route>
       </Switch>

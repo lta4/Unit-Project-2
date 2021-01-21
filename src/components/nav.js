@@ -5,7 +5,7 @@ const Nav = (props) => {
     return (
         <div className="nav">
             <Link to="/">
-                <div className="star">Star Wars Info</div>
+                <div className="star">Star Info</div>
             </Link>
             <Link to="/">
                 <h1 className="title">Star Wars Universe</h1>
