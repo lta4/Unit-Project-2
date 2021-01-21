@@ -23,11 +23,11 @@ const getStar = async () => {
     const loaded = () => {
     return (
             <div className="list">
-            {star.map((star) => {
+            {star.map((star, id) => {
                 const {name, url} = star;
                 return (
                     <Link className="apiLink" to={`/main/${url}`}>
-                        <h2>{name}</h2>
+                        <h2>key={id}{name}</h2>
                     </Link> 
                 )
             })}

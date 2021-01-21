@@ -25,7 +25,7 @@ else {
     return (
         <h2>{props.name}</h2>
     )
-};  
+    };  
 };
 
 console.log(Container)
