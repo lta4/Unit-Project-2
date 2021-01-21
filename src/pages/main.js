@@ -18,30 +18,29 @@ const getStar = async () => {
     }
     
     React.useEffect(() => {
-        getStar()
+        // getStar()
     }, [])
 
     const loaded = () => {
     return (
             <div className="list">
             {star.map((star) => {
-                const {name, url} = star;
+                const {name} = star;
                 return (
-                    <h2>{name}</h2>
+               <h2>{name}</h2> 
                 )
             })}
             </div>                           
-        )                                                                                                                                  
-    }              
+        );                                                                                                                                
+    };              
     return (                      
         <div className= "main">
             <h1>Yoda's Realm</h1>
             <Form handleClickFromMain={getStar} />
-            {/* <List star={star} /> */}
             {star ? loaded() : null}
         </div>
     );
 };
-                                  
+
 export default Main
         

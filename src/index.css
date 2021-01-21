@@ -94,6 +94,10 @@ code {
   grid-row: -4 / -3;
 }
 
+.container {
+  color: white;
+}
+
 /* WHY */
 
 .why {
