@@ -21,10 +21,10 @@ function App() {
         <Route exact path= "/">
           <Main className="mainRoute"/>
         </Route>
-        <Route path= "list">
+        <Route path= "/list">
           <List className="listRoute"/>
         </Route>
-        <Route path= "container">
+        <Route path= "/container">
           <Container className="containerRoute"/>
         </Route>
         <Route path="/why">
