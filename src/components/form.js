@@ -6,12 +6,6 @@ const Form = (props) => {
         props.handleClickFromMain()
     }
 
-    // const randomUrl = new Array ("https://www.swapi.tech/api/people?page=1&limit=82")
-    // for (let i=0; i < 5; i++) {
-    //     const number = Math.floor(Math.random() * randomUrl.length);
-    //     document.getElementById("result").innerHTML += '<img src=" ' + randomUrl[number] + ' " style="width:150px" />'
-    // }
-
     return (
         <>
         <button

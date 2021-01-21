@@ -3,22 +3,25 @@ import React, { useState } from "react"
 const Why = (props) => {
 const [gif, setGif] = useState(null);
 const getGif = async () => {
-
+//API//
 const apiGif = "https://api.giphy.com/v1/stickers/search?api_key=V08sx8udfp5F9RwTVG49gwlpWzKnOytY&q=baby yoda&limit=25&offset=0&rating=g&lang=en";
-
+//API FETCH// 
   const res = await fetch(apiGif);
   const json = await res.json();
   setGif(json.data);
-  console.log(json)
+//   console.log(json)
   };
 
   React.useEffect(() => {
       getGif()
+      console.log(getGif)
   }, [])
 
   return (
     <div className="why">
-      <img src={gif} alt=""/>
+        <div>
+            <img src={gif} alt=""/>
+        </div>    
     </div>
   );
 }

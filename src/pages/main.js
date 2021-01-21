@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Form from "../components/form"
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 // import List from "./list"
 
 const Main = () => {
@@ -24,9 +24,11 @@ const getStar = async () => {
     return (
             <div className="list">
             {star.map((star) => {
-                const {name} = star;
+                const {name, url} = star;
                 return (
-               <h2>{name}</h2> 
+                    <Link to={`/main/${url}`}>
+                        <h2>{name}</h2>
+                    </Link> 
                 )
             })}
             </div>                           
