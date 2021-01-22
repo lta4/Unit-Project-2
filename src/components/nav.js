@@ -11,7 +11,7 @@ const Nav = (props) => {
                 <h1 className="title">Star Wars Universe</h1>
             </Link>    
             <Link to="/why">
-                <div className="about">Why am I?</div>
+                <div className="about">Why?</div>
             </Link>
         </div>
     )

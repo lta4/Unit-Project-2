@@ -44,9 +44,6 @@ code {
 }
 
 .nav .title {
-  /* display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end; */
   color: gold;
   text-shadow: 6px 6px black;
   font-size: 45px;
@@ -55,11 +52,6 @@ code {
 }
 
 /* MAIN */
-
-/* .main {
-  width: 200%;
-  height: 200%;
-} */
 
 .main h1 {
   font-size: 20px;
@@ -108,6 +100,13 @@ code {
 }
 
 /* WHY */
+
+.forWhat {
+  font-size: 15px;
+  text-shadow: 2px 2px black;
+  color: gold;
+  margin: 0 10px 0 10px;
+}
 
 .why {
   display: grid;
@@ -190,7 +189,7 @@ code {
   }
 
   .apiLink {
-    font-size: 20px;
+    font-size: 11px;
     text-shadow: 4px 3px black;
   }
 
@@ -234,7 +233,7 @@ code {
     }
 
     .apiLink {
-      font-size: 30px;
+      font-size: 14px;
       text-shadow: 4px 3px black;
     }
 

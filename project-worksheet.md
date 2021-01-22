@@ -3,9 +3,9 @@
 - [Github Repo link](https://github.com/lta4/Unit-Project-2.git)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/5593acdc-3c0f-4e34-8585-4041baee0f97/deploy-status)](https://app.netlify.com/sites/starwarsuniverse/deploys)
 ## Project Description
-I wanted to design an app a user can click and see an abundant of characters on the page. Using Routes/State/and Hooks I was able to grab data from a 3rd party source and project the characters names on screen.
+I wanted to design an app a user can click and see an abundant of characters with there details on screen. Using Routes/State/and Hooks I was able to grab data from a 3rd party source and project the characters names on screen.
 ## API
-For this project I plan to make a list of Star Wars characters. It will include both the good and the bad (light and the dark). A  navigation bar will have forwarding links to certain areas in the site. 
+For this project I plan to make a list of Star Wars characters with info on they're details. It will include both the good and the bad (light and the dark). A  navigation bar will have forwarding links to certain areas in the site. 
 
 
 ```
@@ -74,9 +74,8 @@ For this project I plan to make a list of Star Wars characters. It will include 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
-- [Mobile Design](https://res.cloudinary.com/dfltkqotn/image/upload/v1610735580/Mobile_najsss.heic)
-- [Tablet & Desktop Design](https://res.cloudinary.com/dfltkqotn/image/upload/v1610735606/Tablet_Desktop_hib9lp.heic)
-- [React Architecture](https://res.cloudinary.com/dfltkqotn/image/upload/v1610735712/Wireframe_ymplmn.heic)
+- [Mobile/Tablet/Desktop Design](https://res.cloudinary.com/dfltkqotn/image/upload/v1611337615/IMG_4773_jeh4k2.heic)
+- [React Architecture](https://res.cloudinary.com/dfltkqotn/image/upload/v1611337605/IMG_4772_yj6viu.heic)
 ### MVP/PostMVP - 5min
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 #### MVP

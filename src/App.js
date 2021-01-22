@@ -9,9 +9,8 @@ import Nav from "./components/nav";
 function App() {
   return (
     <div className="App" style={{
+      // BACKGROUND COVER //
       backgroundImage: 'url("https://i.pinimg.com/originals/f0/d8/ce/f0d8ce1ce46766a24d2317890e364890.png")'
-      // https://wallpaperaccess.com/full/245210.jpg
-      // https://i.pinimg.com/originals/f0/d8/ce/f0d8ce1ce46766a24d2317890e364890.png
     }}>
       <Nav className="navRoute"/>
       <Switch>
@@ -24,6 +23,7 @@ function App() {
       </Switch>
       <Footer className="footContainer"/>
     </div>
+    // NAV, ROUTES/ FOOTER
   );
 };
 

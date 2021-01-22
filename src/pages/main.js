@@ -13,12 +13,9 @@ const getStar = async () => {
     const response = await fetch(api);
     const json = await response.json();
     setStar(json.results);
-    
-    console.log(json)
     }
     
     React.useEffect(() => {
-        // getStar()
     }, [])
 
     const loaded = () => {
@@ -42,7 +39,7 @@ const getStar = async () => {
     };              
     return (                      
         <div className= "main">
-            <h1 className="yodaList">Yoda's Knowledge</h1>
+            <h1 className="yodaList">Use the Force</h1>
             <Form handleClickFromMain={getStar} />
             {star ? loaded() : null}
         </div>
