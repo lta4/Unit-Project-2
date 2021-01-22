@@ -37,6 +37,7 @@ code {
   text-decoration: none;
   text-shadow: 2px 2px black;
   font-size: 13px;
+  padding: 0 8px 0 8px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -118,6 +119,7 @@ code {
   font-size: 15px;
   text-shadow: 2px 2px black;
   color: gold;
+  margin: 0 10px 0 10px;
 }
 
 .copyRight a {
@@ -129,6 +131,7 @@ code {
   font-size: 15px;
   text-shadow: 2px 2px black;
   color: gold;
+  margin: 0 10px 0 10px;
 }
 
 .thanks a {
@@ -176,45 +179,80 @@ code {
   }
 
   .main h1 {
-    font-size: 30px;
+    font-size: 38px;
+    text-shadow: 4px 3px black;
+  }
+
+  .mainBtn1 {
+    height: 2em;
+    width: 4em;
+    font-size: 20px;
   }
 
   .apiLink {
-    font-size: 12px;
+    font-size: 20px;
+    text-shadow: 4px 3px black;
   }
 
   .thanks {
     font-size: 25px;
+    text-shadow: 4px 3px black;
+    margin: 0 15px 0 15px;
   }
 
   .copyRight {
     font-size: 25px;
+    text-shadow: 4px 3px black;
+    margin: 0 15px 0 15px;
   }
 
   .footer {
     font-size: 40px;
+    text-shadow: 4px 3px black;
   }
 }
 
 @media only screen and (min-width: 1024px) {
     .nav .title {
-      font-size: 90px;
+      font-size: 110px;
     }
 
     .nav a {
-      font-size: 35px;
+      font-size: 40px;
+      padding: 0 30px 0 30px;
     }
 
     .main h1 {
-      font-size: 45px;
+      font-size: 50px;
+      text-shadow: 4px 3px black;
+    }
+
+    .mainBtn1 {
+      height: 3em;
+      width: 5em;
+      font-size: 25px;
     }
 
     .apiLink {
-      font-size: 18px;
+      font-size: 30px;
+      text-shadow: 4px 3px black;
+    }
+
+    .thanks {
+      font-size: 50px;
+      margin: 0 20px 0 20px;
+      text-shadow: 4px 3px black;
+    }
+
+    .copyRight {
+      font-size: 50px;
+      margin: 0 20px 0 20px;
+      text-shadow: 4px 3px black;
     }
 
     .footer {
-      font-size: 60px;
+      font-size: 70px;
+      text-shadow: 4px 3px black;
     }
 }
 
