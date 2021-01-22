@@ -3,9 +3,9 @@
 - [Github Repo link](https://github.com/lta4/Unit-Project-2.git)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/5593acdc-3c0f-4e34-8585-4041baee0f97/deploy-status)](https://app.netlify.com/sites/starwarsuniverse/deploys)
 ## Project Description
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I wanted to design an app a user can click and see an abundant of characters on the page. Using Routes/State/and Hooks I was able to grab data from a 3rd party source and project the characters names on screen.
 ## API
-For this project I plan to make a (random) detailed list of Star Wars characters. It will include both the good (light) and the bad (dark) in random orders. A card will show the characters details. A  navigation bar with forwarding links to certain areas in the site. 
+For this project I plan to make a list of Star Wars characters. It will include both the good and the bad (light and the dark). A  navigation bar will have forwarding links to certain areas in the site. 
 
 
 ```
@@ -82,47 +82,57 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Nav | H | 2.5hr | hr |
-| Nav Links | H | 2.5hr | hr |
-| HTML | H | 2.5 | hr |
-| CSS | L | 2.5 | hr |
-| Grid Layout | H | 3hr | hr |
-| Flex Box | H | 3hr | hr |  
-| Adding Format | H | 2hrs|  hr | 
-| Mobile Responsive | H | 3hr | hr |
-| Tablet Responsive | H | 3hr | hr |
-| Desktop Responsive | H | 3hr | hr |
-| API | H | 2.5hr | hr |
-| Total | H | 29.5hrs| hrs |
+| Nav | H | 2.5hr | 1hr |
+| Nav Links | H | 2.5hr | 1hr |
+| HTML | H | 2.5 | 3hr+ |
+| CSS | L | 2.5 | 2.5hr |
+| Grid Layout | H | 3hr | 2.5hr |
+| Flex Box | H | 3hr | 2hr |  
+| Adding Format | H | 2hrs|  1hr | 
+| Mobile Responsive | H | 3hr | 2hr |
+| Tablet Responsive | H | 3hr | 2hr |
+| Desktop Responsive | H | 3hr | 2hr |
+| API | H | 2.5hr | 3hr+ |
+| Total | H | 29.5hrs| 22hrs |
 #### PostMVP
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Nav Aesthetics | H | 2.5hr | hr |
-| CSS Styling | H | 3hr | hr |
-| Email Icon | L | 2hr | hr |
-| Social Media Icons | L | 3hr | hr |
-| Smooth Scroll | H | 2hr | hr |
-| Project Review | H | 3hr | hr |
-| Total | H | 15.5hrs| hrs |
+| Nav Aesthetics | H | 2.5hr | 1.5hr |
+| CSS Styling | H | 3hr | 2.5hr |
+| Email Icon | L | 2hr | 0hr |
+| Social Media Icons | L | 3hr | 0hr |
+| Smooth Scroll | H | 2hr | 1hr |
+| Project Review | H | 3hr | 3hr |
+| Total | H | 15.5hrs| 8hrs |
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 | Component | Description | Priority | Estimated Time | Actual Time |
 | --- | :---: | :---: | :---: | :---: |
-| App {State} | Initial data/pull/ include React Router | H | 2.5hr | hr |
-| Nav | This will render the header include the Nav | H | 2.5hr | hr |
-| Home | This will render the Nav | H | 2.5hr | hr |
-| About/Why? {Stateless} | This will render the Nav | H | 2hr | hr |
-| Footer {Stateless} | This will render the Home | L | 2hr | hr |
+| App {State} | Holds state including React Router | H | 2.5hr | 3hr+ |
+| Nav | Rendered by App | H | 2.5hr | 2hr |
+| Main{State} | This will render Form and Container | H | 2.5hr | 3hr+ |
+| Why? {State} | Rendered by App | H | 2hr | 2.5hr |
+| Form | Holds state | H | 3hr | 3hr+ |
+| Container {State} | Holds state | H | 3hr | 3hr+ |
+| Footer | Rendered by App | L | 2hr | 2.5hr |
 ## Additional Libraries
  -Swapi.tech
  -Stack Overflow
  -MDN Web Docs
+ -W3Schools
+ 
+ I'd like to thank Star Wars and Lucasfilms Ltd who own copyrights and any associations.
+ 
+ I'd also specially like to shout out Jorge, Kaung, Amy and the support/instructional staff Riana and Alex. Thank you for all your support and advice. I couldn't have gotten this far without it. Thank you.
+
 ## Code Snippet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+I used to be afraid to tackle Grid Templates and Grid Areas. This time around seemed like such a breeze using it more fluidly within this project. A simple snippet (one of many) but something I am proud of. 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+.why {
+  display: grid;
+  grid-column: 1 / span 2;
+  grid-row: 2 / 3;
 }
 ```

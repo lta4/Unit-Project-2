@@ -14,12 +14,6 @@ const Form = (props) => {
             onClick={handleClick}>
                 Click
         </button>
-        {/* <button
-            type="button"
-            className="mainBtn2"
-            onClick={handleClick}>
-                Click
-        </button> */}
         </>
     );
 };
