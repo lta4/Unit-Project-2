@@ -12,7 +12,7 @@ const Form = (props) => {
             type="button"
             className="mainBtn1"
             onClick={handleClick}>
-                Click
+                Press
         </button>
         </>
     );
