@@ -24,11 +24,11 @@ const apiGif = "https://api.giphy.com/v1/stickers/search?api_key=V08sx8udfp5F9Rw
   return (
         <div className="whyGif">
         {gif.map((gif, id) => {
-            const {name, url} = gif;
+            const {name} = gif;
             return (
-                // <Link className="apiLink" to={`/why/${name.url.img.slug}`}>
-                    <h2>key={id}{name}</h2>
-                // </Link>
+              <div key={id}>
+                <h2>{name}</h2>
+              </div>
             )
         })}
         </div>                           

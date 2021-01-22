@@ -5,8 +5,6 @@ import Main from "./pages/main";
 import Why from "./pages/why";
 import Footer from "./pages/footer";
 import Nav from "./components/nav";
-// import Form from "./components/form";
-import Container from "./pages/container";
 
 function App() {
   return (
@@ -17,17 +15,13 @@ function App() {
     }}>
       <Nav className="navRoute"/>
       <Switch>
-        <Route exact path= "/">
-          <Main className="mainRoute"/>
-        </Route>
         <Route path="/why">
           <Why className="whyRoute"/>
         </Route>
-        <Route path="/main">
-        <Container className="containerRoute"/>
+        <Route path= "/">
+          <Main className="mainRoute"/>
         </Route>
       </Switch>
-      {/* <Container className="containerRoute"/> */}
       <Footer className="footContainer"/>
     </div>
   );
