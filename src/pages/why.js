@@ -18,14 +18,7 @@ const apiGif = "https://api.giphy.com/v1/stickers/search?api_key=V08sx8udfp5F9Rw
   const loaded = () => {
   return (
         <div className="whyGif">
-        {gif.map((gif, id) => {
-            const {name} = gif;
-            return (
-              <div key={id}>
-                <h2>{name}</h2>
-              </div>
-            )
-        })}
+          <img src="https://api.giphy.com/v1/stickers/search?api_key=V08sx8udfp5F9RwTVG49gwlpWzKnOytY&q=baby yoda&limit=1&offset=0&rating=g&lang=en" alt="" />
         </div>                           
     );                                                                                                                                
 };       

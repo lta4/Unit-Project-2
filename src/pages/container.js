@@ -1,4 +1,5 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
+import { Route } from "react-router-dom";
 
 const Container = (props) => {
 
@@ -30,6 +31,9 @@ const apiCont = props.star.url
                     <h3 className="detailList">Gender: {details.properties.gender}</h3>
                     <h3 className="detailList">Created: {details.properties.created}</h3>
                     <h3 className="detailList">Edited: {details.properties.edited}</h3>
+                    <Route path={`/container/${details}`}>
+                    <Container className="detailRoute" details={details}/>
+                    </Route>
                 </div>
         </div>
         );                         
