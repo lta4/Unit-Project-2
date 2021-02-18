@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link, Route} from "react-router-dom"
 
 const Why = (props) => {
   const [gif, setGif] = useState(null);
@@ -19,6 +20,11 @@ const apiGif = "https://api.giphy.com/v1/stickers/search?api_key=V08sx8udfp5F9Rw
   return (
         <div className="whyGif">
           <img src="https://api.giphy.com/v1/stickers/search?api_key=V08sx8udfp5F9RwTVG49gwlpWzKnOytY&q=baby yoda&limit=1&offset=0&rating=g&lang=en" alt="" />
+          {/* <Link className="gifLink" to={`/why/${setGif}`}>
+            <h2>{setGif}</h2>
+          </Link>
+          <Route path={`/why/${setGif}`}>
+          </Route> */}
         </div>                           
     );                                                                                                                                
 };       
